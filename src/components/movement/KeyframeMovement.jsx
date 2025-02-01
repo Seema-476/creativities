@@ -6,7 +6,7 @@ const KeyframeMovement = () => {
     <div className="h-screen flex w-full">
       <div className="container mx-auto px-5">
         <h1 className="lg:text-5xl text-2xl font-bold text-blue-300 py-10 text-center">
-          CONTINUOUS SLIDER ANIMATION
+          HOVER ON CARD
         </h1>
         <div className="flex gap-5 justify-center items-center pt-10 flex-wrap">
           {CARD_ANIMATION_DATA_LIST.map((obj, i) => (
@@ -14,7 +14,7 @@ const KeyframeMovement = () => {
               <div className="relative overflow-hidden rounded-xl w-full">
                 {/* Outer Image */}
                 <img
-                  className="max-w-[429px] max-sm:max-w-[300px] lg:min-h-[357px] w-full bg-white object-cover relative z-40 hover:z-0 duration-500 hover:opacity-0"
+                  className="max-w-[429px] max-sm:max-w-[300px] lg:min-h-[357px] w-full bg-white object-cover relative z-40 hover:z-0 duration-500 hover:opacity-0 cursor-pointer"
                   width={429}
                   height={357}
                   src={obj.outerImg}
