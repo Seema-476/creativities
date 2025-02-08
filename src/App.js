@@ -4,6 +4,7 @@ import Home from './components/view/Home';
 import About from './components/view/About';
 import Loader from './components/view/Loader';
 import Movement from './components/view/Movement';
+import AnimationGsap from './components/view/AnimationGsap';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/loader' element={<Loader />} />
           <Route path='/movement' element={<Movement />} />
+          <Route path='/animationGsap' element={<AnimationGsap />} />
         </Routes>
       </BrowserRouter>
     </>
