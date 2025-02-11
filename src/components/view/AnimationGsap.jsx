@@ -1,5 +1,5 @@
 import React from 'react'
-import AnimationGsap from '../animationgsap/AnimationGsap'
+import AnimationGsap from '../animation/AnimationGsap'
 
 const animationgsap = () => {
   return (

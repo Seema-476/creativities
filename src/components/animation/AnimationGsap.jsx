@@ -20,7 +20,7 @@ useEffect(() => {
         gsap.fromTo(
           text,
           { y: 30, opacity: 0 }, 
-          { y: 0, opacity: 1, delay: .7, duration:1, stagger: 0.8, ease: "power3.out" }
+          { y: 0, opacity: 1, delay: .9, duration:0.5, ease: "power3.out" }
         );
       });
     }

@@ -15,7 +15,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/loader' element={<Loader />} />
           <Route path='/movement' element={<Movement />} />
-          <Route path='/animation-gsap' element={<AnimationGsap />} />
+          <Route path='/animation' element={<AnimationGsap />} />
         </Routes>
       </BrowserRouter>
     </>
