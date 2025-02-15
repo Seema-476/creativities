@@ -1,5 +1,6 @@
 import { useEffect ,useRef} from "react";
 import { gsap } from "gsap";
+import Heading from "../../common/Heading";
 
 const AnimationGsap = () => {
 const buttonRef = useRef(null);
@@ -28,7 +29,7 @@ useEffect(() => {
 
   return (
     <div className="flex items-center justify-center h-screen flex-col bg-slate-300">
-        <h2 className="text-3xl text-white font-bold underline hero">GSAP</h2>
+      <Heading text="GSAP" classStyle="!text-3xl !text-white hero"/>
         <p className="font-medium text-xl text-white max-w-[500px] w-full text-center py-8 hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo, dolorem consequuntur, possimus asperiores ea quibusdam ipsam temporibus sunt vero sed laborum libero aut veritatis perspiciatis dolorum cum assumenda voluptas.</p>
 <button
         ref={buttonRef}

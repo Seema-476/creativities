@@ -36,3 +36,27 @@
         transform: translateX(-50%);
     }
 }
+.bubble {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: #0015FF;
+    box-shadow: 0 0 0 7px #fff, 0 0 15px 10px rgba(0, 0, 0, 0.5);
+    filter: blur(20px);
+    transform: translateZ(-40px);
+    animation: float 3s ease-in-out;
+  }
+  
+  @keyframes float {
+    0% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

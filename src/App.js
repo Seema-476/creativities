@@ -5,6 +5,7 @@ import About from './components/view/About';
 import Loader from './components/view/Loader';
 import Movement from './components/view/Movement';
 import AnimationGsap from './components/view/AnimationGsap';
+import MouseMovement from './components/animation/MouseMovement';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/loader' element={<Loader />} />
           <Route path='/movement' element={<Movement />} />
           <Route path='/animation-gsap' element={<AnimationGsap />} />
+          <Route path='/mouse-move' element={<MouseMovement />} />
         </Routes>
       </BrowserRouter>
     </>
